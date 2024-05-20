@@ -1,0 +1,33 @@
+
+<!--
+  INTERPOLACIÓN
+  <h1>{{ title }}</h1>
+
+  PROPIEDADES
+  
+  1. <input type="text" name="txtnombre" [value]="valor">
+  2. <input [type]="tipo" name="txtnombre" [value]="valor">
+  3. <input [type]="tipo" name="txtnombre" [value]="valor"> <br>
+     <img [src]="img" ><br>
+     <a [href]="enlace">El comercio</a>
+     
+     <p [className]="clase01">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eaque magni accusamus esse, distinctio vero tempora, labore repudiandae nisi voluptatum aspernatur voluptates minima dicta aliquid. Fugit culpa exercitationem fugiat temporibus!
+     </p>
+     
+     <p [ngClass]="clase02">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem amet enim, cum in ad aliquid culpa. Aut iste sit illum, reiciendis, numquam cumque veritatis ipsum autem doloremque voluptatum culpa corporis.
+     </p>
+
+     EVENTOS
+     1. <button (click)="onClick()">Enviar</button>
+
+     ngModel
+
+-->
+
+<input [(ngModel)]="nombre" placeholder="Enter your name">
+<p>Hello, {{ nombre }}!</p>
+
+
+
